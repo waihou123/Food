@@ -10,18 +10,18 @@ public class Food {
    return nutrients;
    }
 
-   public static void definition() {
+   public void definition() {
    }
    
-   public static void consist() {
+   public void consist() {
    }
     
-   public static void example() {
+   public void example() {
    }
     
-   public static void function() {
+   public void function() {
    }
-   public static void energySupply() {
+   public void energySupply() {
    } 
 
 
