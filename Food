@@ -1,0 +1,22 @@
+public class Food {
+
+   public static void nutrients() {
+   System.out.println("The balance of main nutrition of food are good for health.");
+   }
+
+   public static void definition() {
+   }
+   
+   public static void consist() {
+   }
+    
+   public static void example() {
+   }
+    
+   public static void function() {
+   }
+   public static void energySupply() {
+   } 
+
+
+}
