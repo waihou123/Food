@@ -1,0 +1,9 @@
+public class Carbohydrate extends Food {
+  
+  private String type;
+    
+  public static void type() {
+   System.out.println("Contain two type such as Complex carbohydrates, Simple carbohydrates.");
+   } 
+
+}
