@@ -3,9 +3,11 @@ public class main{
 public static void main (String[] args) {
    
     Food n = new Food();
-    n.nutrients();
+    n.setNutrients("The balance of main nutrition of food are good for health.");
+    System.out.prntln(n.getNutrients());
+
  
-    System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
+   System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
 
     Protein p = new Protein();
     
