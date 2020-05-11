@@ -1,7 +1,13 @@
 public class Food {
 
-   public static void nutrients() {
-   System.out.println("The balance of main nutrition of food are good for health.");
+   private String nutrients;
+   
+   public void setNutrients(String newNutrients) {
+   this.nutrients = newNutrients;
+   }
+  
+   public String getNutrients() {
+   return nutrients;
    }
 
    public static void definition() {
