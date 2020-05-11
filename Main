@@ -1,0 +1,65 @@
+public class main{
+
+public static void main (String[] args) {
+   
+    Food n = new Food();
+    n.nutrients();
+ 
+    System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
+
+    Protein p = new Protein();
+    
+    p.definition();
+    System.out.println("Protein is a macronutrient that is essential to building muscle mass.");
+
+    p.consist();
+    System.out.println("Organic compounds made of carbon, hydrogen, nitrogen, oxygen.");
+
+    p.example();
+    System.out.println("Tuna, chicken, beaf, lamb");
+
+    p.function();
+    System.out.println("Important for growth and repair of body cells.");
+
+  System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
+  
+    Fat f = new Fat();
+    
+    f.definition();
+    System.out.println("The body uses fat as a fuel source, and fat is the major storage form of energy in the body.");
+ 
+    f.consist();
+    System.out.println("Consisting of carbon and hydrogen atoms.");
+ 
+    f.example();
+    System.out.println("Fish oil, butter, coconut oil");
+ 
+    f.function();
+    System.out.println("Store energy, insulate us and protect our vital organs.");
+ 
+    f.energySupply();
+    System.out.println("Slow to supply energy.");
+
+  System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
+  
+    Carbohydrate c = new Carbohydrate();
+    
+    c.definition();
+    System.out.println("Carbohydrate is any of a large group of organic compounds occurring in foods and living tissues and including sugars, starch, and cellulose. ");
+ 
+    c.consist();
+    System.out.println("Consisting of carbon, hydrogen and oxygen atoms.");
+ 
+    c.example();
+    System.out.println("Fiber, vegetables, fruits, rice, candy, cereals");
+ 
+    c.function();
+    System.out.println("Store energy, insulate us and protect our vital organs.");
+ 
+    c.energySupply();
+    System.out.println("Fast to supply energy.");
+ 
+    c.type();
+
+  }
+}
